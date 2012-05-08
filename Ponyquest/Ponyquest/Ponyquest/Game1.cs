@@ -20,7 +20,7 @@ namespace Ponyquest
         SpriteBatch spriteBatch;
 
         Texture2D Background;
-        Texture2D CollisionTexture;
+        
 
 
 
@@ -28,6 +28,8 @@ namespace Ponyquest
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            graphics.PreferredBackBufferHeight = 720;
+            graphics.PreferredBackBufferWidth = 1280;
         }
 
         /// <summary>
@@ -51,6 +53,8 @@ namespace Ponyquest
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            Background = Content.Load<Texture2D>("room1");
 
             // TODO: use this.Content to load your game content here
         }
@@ -89,6 +93,13 @@ namespace Ponyquest
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+
+            spriteBatch.Begin();
+
+            spriteBatch.Draw(Background, Vector2.Zero, Color.White);
+
+            spriteBatch.End();
+
 
             base.Draw(gameTime);
         }
