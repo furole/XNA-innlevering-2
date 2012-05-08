@@ -20,6 +20,8 @@ namespace Ponyquest
         SpriteBatch spriteBatch;
 
         Texture2D Background;
+
+        SoundEffect Sound;
         
 
 
@@ -31,6 +33,8 @@ namespace Ponyquest
             graphics.PreferredBackBufferHeight = 720;
             graphics.PreferredBackBufferWidth = 1280;
         }
+
+
 
         /// <summary>
         /// Allows the game to perform any initialization it needs to before starting to run.
@@ -56,6 +60,15 @@ namespace Ponyquest
 
             Background = Content.Load<Texture2D>("room1");
 
+            Sound = Content.Load<SoundEffect>("ambience_inside_hum");
+            SoundEffectInstance soundEffectInstance = Sound.CreateInstance();
+            Sound.Play();
+            
+            
+            
+
+
+
             // TODO: use this.Content to load your game content here
         }
 
@@ -78,6 +91,7 @@ namespace Ponyquest
             // Allows the game to exit
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
+
 
             // TODO: Add your update logic here
 

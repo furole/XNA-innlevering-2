@@ -7,3 +7,4 @@ C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\obj\x86\Debug\ResolveAssembl
 C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\obj\x86\Debug\Ponyquest.exe
 C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\obj\x86\Debug\Ponyquest.pdb
+C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\ambience_inside_hum.xnb

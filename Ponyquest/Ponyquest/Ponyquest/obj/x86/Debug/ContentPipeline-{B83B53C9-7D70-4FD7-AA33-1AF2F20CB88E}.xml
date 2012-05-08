@@ -28,6 +28,15 @@
       <Output>C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\ponysheet.xnb</Output>
       <Time>2012-05-08T11:22:21.0844621+02:00</Time>
     </Item>
+    <Item>
+      <Source>ambience_inside_hum.wav</Source>
+      <Name>ambience_inside_hum</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\ambience_inside_hum.xnb</Output>
+      <Time>2012-05-08T12:27:39.4514228+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{B83B53C9-7D70-4FD7-AA33-1AF2F20CB88E}</ContentProjectGUID>
