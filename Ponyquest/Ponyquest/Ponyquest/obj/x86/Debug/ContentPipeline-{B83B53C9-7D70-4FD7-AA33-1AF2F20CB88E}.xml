@@ -2,31 +2,157 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>room1.png</Source>
-      <Name>room1</Name>
+      <Source>Content\room1.png</Source>
+      <Name>Content\room1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\room1.xnb</Output>
+      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\room1.xnb</Output>
       <Time>2012-05-08T11:57:54.1678306+02:00</Time>
     </Item>
     <Item>
-      <Source>room1Collision.png</Source>
-      <Name>room1Collision</Name>
+      <Source>Content\room1Collision.png</Source>
+      <Name>Content\room1Collision</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\room1Collision.xnb</Output>
-      <Time>2012-05-08T11:57:54.1688306+02:00</Time>
+      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\room1Collision.xnb</Output>
+      <Time>2012-05-08T23:53:43.3790571+02:00</Time>
     </Item>
     <Item>
-      <Source>ponysheet.png</Source>
-      <Name>ponysheet</Name>
+      <Source>Content\ponysheet.png</Source>
+      <Name>Content\ponysheet</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\ponysheet.xnb</Output>
+      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\ponysheet.xnb</Output>
       <Time>2012-05-08T11:57:54.1618302+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\MainMenu.png</Source>
+      <Name>Content\MainMenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\MainMenu.xnb</Output>
+      <Time>2012-05-08T14:19:39.8583282+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\Start_button.png</Source>
+      <Name>Content\Start_button</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\Start_button.xnb</Output>
+      <Time>2012-05-08T14:51:24.1562478+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\CreditsButton.png</Source>
+      <Name>Content\CreditsButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\CreditsButton.xnb</Output>
+      <Time>2012-05-08T14:54:27.8897568+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\BackButton.png</Source>
+      <Name>Content\BackButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\BackButton.xnb</Output>
+      <Time>2012-05-08T15:05:43.8874216+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\Credits.png</Source>
+      <Name>Content\Credits</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\Credits.xnb</Output>
+      <Time>2012-05-08T15:45:00.8792339+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\Paused.png</Source>
+      <Name>Content\Paused</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\Paused.xnb</Output>
+      <Time>2012-05-08T16:08:36.7802188+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\ContinueButton.png</Source>
+      <Name>Content\ContinueButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\ContinueButton.xnb</Output>
+      <Time>2012-05-08T16:14:02.0898254+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\MainMenuButton.png</Source>
+      <Name>Content\MainMenuButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\MainMenuButton.xnb</Output>
+      <Time>2012-05-08T20:03:49.547095+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\EndGameButton.png</Source>
+      <Name>Content\EndGameButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\EndGameButton.xnb</Output>
+      <Time>2012-05-08T21:01:52.2842962+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\GameOver.png</Source>
+      <Name>Content\GameOver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\GameOver.xnb</Output>
+      <Time>2012-05-08T21:27:20.5097057+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\ExitButton.png</Source>
+      <Name>Content\ExitButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\ExitButton.xnb</Output>
+      <Time>2012-05-08T21:42:04.8472869+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\Bedroom.png</Source>
+      <Name>Content\Bedroom</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\Bedroom.xnb</Output>
+      <Time>2012-05-08T23:07:41.7351001+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\BedroomCollision.png</Source>
+      <Name>Content\BedroomCollision</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\BedroomCollision.xnb</Output>
+      <Time>2012-05-08T23:08:02.5982934+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\FieldBackground.png</Source>
+      <Name>Content\FieldBackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\FieldBackground.xnb</Output>
+      <Time>2012-05-10T10:37:51.7614731+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
