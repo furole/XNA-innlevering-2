@@ -2,6 +2,7 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
+<<<<<<< HEAD
       <Source>Content\room1.png</Source>
       <Name>Content\room1</Name>
       <Importer>TextureImporter</Importer>
@@ -153,6 +154,42 @@
       <Options>None</Options>
       <Output>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\FieldBackground.xnb</Output>
       <Time>2012-05-10T10:37:51.7614731+02:00</Time>
+=======
+      <Source>room1.png</Source>
+      <Name>room1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\room1.xnb</Output>
+      <Time>2012-05-08T11:22:13.5496489+02:00</Time>
+    </Item>
+    <Item>
+      <Source>room1Collision.png</Source>
+      <Name>room1Collision</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\room1Collision.xnb</Output>
+      <Time>2012-05-08T11:22:17.9800566+02:00</Time>
+    </Item>
+    <Item>
+      <Source>ponysheet.png</Source>
+      <Name>ponysheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\ponysheet.xnb</Output>
+      <Time>2012-05-08T11:22:21.0844621+02:00</Time>
+    </Item>
+    <Item>
+      <Source>ambience_inside_hum.wav</Source>
+      <Name>ambience_inside_hum</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\ambience_inside_hum.xnb</Output>
+      <Time>2012-05-08T12:27:39.4514228+02:00</Time>
+>>>>>>> origin/master
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -161,10 +198,17 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
+<<<<<<< HEAD
       <RootDirectory>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\PonyquestContent\</RootDirectory>
       <LoggerRootDirectory>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\</LoggerRootDirectory>
       <IntermediateDirectory>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\obj\x86\Debug\</IntermediateDirectory>
       <OutputDirectory>C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\</OutputDirectory>
+=======
+      <RootDirectory>C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\PonyquestContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\</OutputDirectory>
+>>>>>>> origin/master
     </Settings>
     <Assemblies>
       <Assembly>
@@ -193,7 +237,11 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+<<<<<<< HEAD
         <Value>2012-01-11T20:57:37.7123855+01:00</Value>
+=======
+        <Value>2012-01-12T11:08:13.9949304+01:00</Value>
+>>>>>>> origin/master
       </Assembly>
     </Assemblies>
   </Asset>

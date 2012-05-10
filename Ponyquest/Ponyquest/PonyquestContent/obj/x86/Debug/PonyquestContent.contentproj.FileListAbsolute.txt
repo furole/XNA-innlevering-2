@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\PonyquestContent\obj\x86\Debug\ResolveAssemblyReference.cache
+=======
+C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\PonyquestContent\obj\x86\Debug\ResolveAssemblyReference.cache
+>>>>>>> origin/master

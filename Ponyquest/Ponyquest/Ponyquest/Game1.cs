@@ -21,8 +21,15 @@ namespace Ponyquest
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+<<<<<<< HEAD
         enum GameState { MainMenu, Credits, InGame, Pause, GameOver }
         GameState currentGameState = GameState.MainMenu;
+=======
+        Texture2D Background;
+
+        SoundEffect Sound;
+        
+>>>>>>> origin/master
 
         KeyboardState keyBoardState;
 
@@ -50,7 +57,11 @@ namespace Ponyquest
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            graphics.PreferredBackBufferHeight = 720;
+            graphics.PreferredBackBufferWidth = 1280;
         }
+
+
 
         /// <summary>
         /// Allows the game to perform any initialization it needs to before starting to run.
@@ -77,6 +88,17 @@ namespace Ponyquest
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            Background = Content.Load<Texture2D>("room1");
+
+            Sound = Content.Load<SoundEffect>("ambience_inside_hum");
+            SoundEffectInstance soundEffectInstance = Sound.CreateInstance();
+            Sound.Play();
+            
+            
+            
+
+
 
             // TODO: use this.Content to load your game content here
             graphics.PreferredBackBufferWidth = screenWidth;
@@ -198,6 +220,7 @@ namespace Ponyquest
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
+
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -249,6 +272,13 @@ namespace Ponyquest
             spriteBatch.End();
 
             // TODO: Add your drawing code here
+
+            spriteBatch.Begin();
+
+            spriteBatch.Draw(Background, Vector2.Zero, Color.White);
+
+            spriteBatch.End();
+
 
             base.Draw(gameTime);
         }

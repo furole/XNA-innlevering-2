@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Ponyquest.exe
 C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Ponyquest.pdb
 C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\obj\x86\Debug\ResolveAssemblyReference.cache
@@ -21,3 +22,15 @@ C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Deb
 C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\Bedroom.xnb
 C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\BedroomCollision.xnb
 C:\Users\Kim\Desktop\XNA-innlevering-2\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\Content\FieldBackground.xnb
+=======
+C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\room1.xnb
+C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\room1Collision.xnb
+C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\ponysheet.xnb
+C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Ponyquest.exe
+C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Ponyquest.pdb
+C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\obj\x86\Debug\Ponyquest.exe
+C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\obj\x86\Debug\Ponyquest.pdb
+C:\Users\Ole Erik\XNA\Ponyquest\Ponyquest\Ponyquest\bin\x86\Debug\Content\ambience_inside_hum.xnb
+>>>>>>> origin/master

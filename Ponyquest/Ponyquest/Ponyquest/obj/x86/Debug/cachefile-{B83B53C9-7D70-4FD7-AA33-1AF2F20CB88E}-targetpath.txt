@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Content\Content\room1.xnb
 Content\Content\room1Collision.xnb
 Content\Content\ponysheet.xnb
@@ -15,3 +16,9 @@ Content\Content\ExitButton.xnb
 Content\Content\Bedroom.xnb
 Content\Content\BedroomCollision.xnb
 Content\Content\FieldBackground.xnb
+=======
+Content\room1.xnb
+Content\room1Collision.xnb
+Content\ponysheet.xnb
+Content\ambience_inside_hum.xnb
+>>>>>>> origin/master
